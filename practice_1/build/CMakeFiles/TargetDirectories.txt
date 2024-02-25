@@ -1,0 +1,3 @@
+D:/cplus/lectsiya1/build/CMakeFiles/lession1.dir
+D:/cplus/lectsiya1/build/CMakeFiles/ALL_BUILD.dir
+D:/cplus/lectsiya1/build/CMakeFiles/ZERO_CHECK.dir

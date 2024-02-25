@@ -1,0 +1,10 @@
+^D:\CPLUS\LECTSIYA1\BUILD\CMAKEFILES\D4DEF682970F0F4D96CE01A6BBDCF507\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files (HDD)\CMake\bin\cmake.exe" -SD:/cplus/lectsiya1 -BD:/cplus/lectsiya1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/cplus/lectsiya1/build/lession1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

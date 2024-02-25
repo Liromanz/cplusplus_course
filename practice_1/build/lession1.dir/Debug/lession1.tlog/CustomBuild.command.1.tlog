@@ -1,0 +1,10 @@
+^D:\CPLUS\LECTSIYA1\CMAKELISTS.TXT
+setlocal
+"D:\Program Files (HDD)\CMake\bin\cmake.exe" -SD:/cplus/lectsiya1 -BD:/cplus/lectsiya1/build --check-stamp-file D:/cplus/lectsiya1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
